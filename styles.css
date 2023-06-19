@@ -52,7 +52,7 @@ li.header-list-item {
 }
 
 .dropdown-repositories-items {
-    max-height: 50vw;
+    max-height: 30vw;
     overflow-y: auto;
     display: none;
     position: absolute;
