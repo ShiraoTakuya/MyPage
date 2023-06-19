@@ -1,5 +1,5 @@
 ﻿document.addEventListener('DOMContentLoaded', function(){
-    var dropdown1 = document.querySelector('.header-logo-container');
+    var dropdown1 = document.querySelector('.header-logo');
     var dropdownMenu1 = document.querySelector('.ninja-line');
 
     dropdown1.addEventListener('mouseover', function(){
