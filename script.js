@@ -1,7 +1,8 @@
 ﻿document.addEventListener('DOMContentLoaded', function(){
     var dropdown1 = document.querySelector('.header-logo');
-    var dropdownMenu1 = document.querySelector('.ninja-line');
+    var dropdownMenu1 = document.querySelector('.header-ninja-line');
 
+    'HEADER挨拶'
     dropdown1.addEventListener('mouseover', function(){
         dropdownMenu1.style.display = 'block';
     });
@@ -9,17 +10,9 @@
         dropdownMenu1.style.display = 'none';
     });
 
-    
+    'リポジトリ登録'
     var dropdown2 = document.querySelector('.dropdown-repositories-container');
     var dropdownMenu2 = document.querySelector('.dropdown-repositories-items');
-
-    dropdown2.addEventListener('mouseover', function(){
-        dropdownMenu2.style.display = 'block';
-    });
-    dropdown2.addEventListener('mouseout', function(){
-        dropdownMenu2.style.display = 'none';
-    });
-
     var arrrep = [
         ["Kotlin","Browse-with-regular-expression","https://github.com/ShiraoTakuya/Browse-with-regular-expression"],
         ["PHP","Inventory-inquiry-system","https://github.com/ShiraoTakuya/Inventory-inquiry-system"],
@@ -64,8 +57,21 @@
         var link = document.createElement('a');
         link.textContent = arrep[0] + ": " + arrep[1];
         link.href = arrep[2];
+        link.target = "_blank";
         dropdownMenu2.appendChild(link)
     }
+
+    var dropdown3 = document.querySelector('.footer-logo');
+    var dropdownMenu3 = document.querySelector('.footer-ninja-line');
+
+    'FOOTER挨拶'
+    dropdown3.addEventListener('mouseover', function(){
+        dropdownMenu3.style.display = 'block';
+    });
+    dropdown3.addEventListener('mouseout', function(){
+        dropdownMenu3.style.display = 'none';
+    });
+
 });
 
 $(function () {
