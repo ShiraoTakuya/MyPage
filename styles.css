@@ -59,10 +59,6 @@ header{
     display: block;
 }
 
-.title{
-    font-size:3vw;
-}
-
 .top-container a{
     display:flex;
     flex-direction:column;
@@ -179,7 +175,7 @@ footer{
 }
 
 li.footer-list-item {
-    font-size: 14px;
+    font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
     color: #999999;
     list-style:none;
