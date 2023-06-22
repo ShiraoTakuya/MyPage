@@ -153,8 +153,7 @@ footer{
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-areas: "footer-logo . footer-list";
+    grid-template-columns: 1fr 4fr;
 }
 
 .footer-logo-container{
@@ -166,7 +165,6 @@ footer{
 
 .footer-logo{
     width: 5vw;
-    grid-area: footer-logo;
 }
 
 .footer-ninja-line{
@@ -175,15 +173,15 @@ footer{
     display: none;
 }
 
-.footer-list{
-    grid-area: footer-list;
-}
-
 li.footer-list-item {
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
     color: #999999;
     list-style:none;
+}
+
+li.footer-list-item a{
+    color: #999999;
 }
 
 /* For Whole Region */
