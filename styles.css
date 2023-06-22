@@ -71,6 +71,7 @@ header{
 }
 
 .top-img-1{
+    visibility:hidden;
     position:relative;
     z-index: 0;
     width: 100%;
@@ -104,7 +105,6 @@ ul.slider-1 {
 }
 .slider-1 .slick-arrow::before {
     content: '';
-    /* display: block; */
     width: 12px;
     height: 12px;
     border: 1px solid black;
