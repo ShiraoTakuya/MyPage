@@ -129,6 +129,9 @@ ul.slider-1 {
 
 .updates-container{
     margin-bottom:5vw;
+    overflow: hidden;
+    height: 0vw;
+    transition: 1s;
 }
 
 ul.updates-item-1{

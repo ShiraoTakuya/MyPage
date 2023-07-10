@@ -87,6 +87,20 @@
     }
 });
 
+window.addEventListener('scroll', function() {
+    var box = document.querySelector('.updates-container');
+    var boxPosition = box.getBoundingClientRect().top;
+    var windowHeight = window.innerHeight;
+
+    if (boxPosition < windowHeight) {
+        box.style.overflowY = 'auto';
+        box.style.height = '30vw';
+        setTimeout(function() {
+            box.style.transition = '0s';
+        }, 1000);
+    }
+});
+
 $(function () {
     $('#js-slider-1').slick({
       arrows: true,
